@@ -1,0 +1,251 @@
+
+        /** para tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h1{
+    width: 100%;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #db3652;
+    margin: 0px;
+    padding-left: 10px;
+    }
+    h2{
+    width: 100%;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    color: #db3652;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .presentacion-principal{
+    background-color: rgb(237, 175, 176);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    }
+    .imagen-mujer{
+    width: 80px;
+    height: 80px;
+    border: solid #3f3939da;
+    height: 80px;
+    vertical-align: middle;
+    margin: 0px;
+    }
+    .subtitulo{
+    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    p, ul{
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    color: #04044c;
+    }
+
+    hr{
+    margin: 0px;
+    border: 1px solid #27272e ;
+    }
+
+    .contenido{
+    width: 75%;
+    border-left: 2px solid rgb(35, 28, 84);
+    padding-right: 12px;
+    padding-left: 10px;
+    }
+
+    .lateral{
+    width: 20%;
+    padding-right: 10px;
+    }
+
+    .completo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    }
+
+
+    /** para escritorio */
+@media only screen and (min-width: 1024px) {
+    h1{
+        width: 100%;
+        font-size: 30px;
+        font-weight: normal;
+        font-style: italic;
+        color:  #db3652;
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+        }
+        h2{
+        width: 100%;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: italic;
+        color:  #db3652;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        }
+    
+        .presentacion-principal{
+        background-color:  rgb(237, 175, 176);
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 0px,10px;
+        
+    
+        }
+        .imagen-mujer{
+        width: 80px;
+        height: 80px;
+        border: solid #3f3939da;
+        height: 80px;
+        vertical-align: middle;
+        margin: 0px 25px;
+        }
+        .subtitulo{
+        width: 100%;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        }
+    
+        p, ul{
+        width: 100%;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        color: #04044c;
+        }
+    
+        hr{
+        margin: 0px;
+        border: 1px solid #27272e ;
+        }
+    
+        .contenido{
+        width: 75%;
+        border-left: 2px solid rgb(35, 28, 84);
+        padding-right: 12px;
+        padding-left: 10px;
+        }
+    
+        .lateral{
+        width: 20%;
+        }
+    
+        .completo{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+            
+    /** para celular */   
+@media only screen and (max-width: 767px) {
+        body{
+            display: table-cell
+            text-align justify
+        }
+        h1{
+        width: 100%;
+        font-size: 28px;
+        font-weight: normal;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        color:  #db3652;
+        margin: 0px;
+        }
+        h2{
+        width: 100%;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: italic;
+        color:  #db3652;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        }
+        
+        header{
+                background-color: rgb(237, 175, 176);
+                padding-top: 5px;
+        }
+
+
+        .presentacion-principal{ /**padre*/
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+    
+        }
+        .imagen-mujer{ /** hijo de pp*/
+        height: 85px;
+        border: solid rgb(36, 36, 38) 1px;
+        margin: 0px;
+        }
+
+        .center {
+            height: 85px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+          }
+    
+        p, ul{
+        width: 100%;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        color: #24061d;
+        }
+    
+        hr{
+        margin: 0px;
+        border: 1px solid #521129 ;
+        }
+
+        .contenido-presentacion{
+            width: 60%;
+            font-size: 20px;
+            }
+        
+        .lateral-presentacion{
+            width: 38%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+ 
+        .presentacion, .completo{
+            color: #571b4f;
+            margin: 0px;
+            padding: 10px
+        }
+        .contenido{
+        padding-left: 10px;
+        }
+        ul{
+            padding-inline-start: 10px;
+        }
+    }
+li{
+    list-style-type : square;
+
+}
